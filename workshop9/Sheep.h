@@ -12,9 +12,10 @@
 #include "Animal.h"
 
 
-class Sheep : public Animal
+class Sheep : public Animal//Sheep class inherits from Animal class
 {
 public:
+    //not virtual as doesnt need to be overriden since there is no class which inherits it
     void speak(void);
 };
 
