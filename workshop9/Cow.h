@@ -11,10 +11,11 @@
 #include <stdio.h>
 #include "Animal.h"
 
-class Cow : public Animal
+class Cow : public Animal//Cow class inherits from Animal class
 {
 public:
-    virtual void speak(void);
+    //virtual so the method can be overriden if the Frisian object is used
+    virtual void speak(void);//displays cout for Cow 
 };
 
 #endif /* Cow_h */

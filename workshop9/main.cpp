@@ -8,6 +8,8 @@
 #include <iostream>
 #include <string>
 #include <vector>
+
+//including header files
 #include "Animal.h"
 #include "Cow.h"
 #include "Sheep.h"
@@ -15,21 +17,23 @@
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
     
+    
+    //creating objects of derived classes
     Cow cow;
     Sheep sheep;
     Frisian frisian;
     
-    vector<Animal*> container;
+    //container holding references of the instances of all classes
+    vector<Animal*> container;//Animal type to allow for polymorhpic behaviour
     container.push_back(&cow);
     container.push_back(&sheep);
     container.push_back(&frisian);
     
-    
+    //for loop which iterates through the vector one by one
     for (int a = 0; a < container.size(); a++)
     {
-    container[a]->speak();
+    container[a]->speak();//displays corresponding cout message for each item
     }
     return 0;
 }
