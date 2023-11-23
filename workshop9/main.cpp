@@ -18,7 +18,6 @@ using namespace std;
 
 int main(int argc, const char * argv[]) {
     
-    
     //creating objects of derived classes
     Cow cow;
     Sheep sheep;
