@@ -14,8 +14,10 @@
 class Cow : public Animal//Cow class inherits from Animal class
 {
 public:
+    Cow();//constructor
     //virtual so the method can be overriden if the Frisian object is used
     virtual void speak(void);//displays cout for Cow 
+    ~Cow();//deconstructor
 };
 
 #endif /* Cow_h */

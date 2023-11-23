@@ -13,8 +13,10 @@
 class Frisian : public Cow//Frisian class inherits from Cow class / Cow class inherits from Animal class
 {
 public:
+    Frisian();//constructor
     //not virtual as doesnt need to be overriden since there is no class which inherits it
     void speak(void);
+    ~Frisian();//deconstructor
 };
 
 #endif /* Frisian_h */
