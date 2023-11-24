@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C0D6DB72B0FB8BD0066D05D /* Random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C0D6DB52B0FB8BD0066D05D /* Random.cpp */; };
 		2C687FEF2B0DFC7B00192A22 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C687FEE2B0DFC7B00192A22 /* main.cpp */; };
 		2C687FF72B0DFDA600192A22 /* Animal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C687FF52B0DFDA600192A22 /* Animal.cpp */; };
 		2C687FFA2B0DFDB000192A22 /* Sheep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C687FF82B0DFDB000192A22 /* Sheep.cpp */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2C0D6DB52B0FB8BD0066D05D /* Random.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Random.cpp; sourceTree = "<group>"; };
+		2C0D6DB62B0FB8BD0066D05D /* Random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Random.h; sourceTree = "<group>"; };
 		2C687FEB2B0DFC7B00192A22 /* workshop9 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = workshop9; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C687FEE2B0DFC7B00192A22 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2C687FF52B0DFDA600192A22 /* Animal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Animal.cpp; sourceTree = "<group>"; };
@@ -74,10 +77,12 @@
 				2C687FF82B0DFDB000192A22 /* Sheep.cpp */,
 				2C687FFB2B0DFDCB00192A22 /* Frisian.cpp */,
 				2C687FFE2B0E011A00192A22 /* Cow.cpp */,
-				2C687FFC2B0DFDCB00192A22 /* Frisian.h */,
-				2C687FF92B0DFDB000192A22 /* Sheep.h */,
+				2C0D6DB52B0FB8BD0066D05D /* Random.cpp */,
 				2C687FF62B0DFDA600192A22 /* Animal.h */,
+				2C687FF92B0DFDB000192A22 /* Sheep.h */,
+				2C687FFC2B0DFDCB00192A22 /* Frisian.h */,
 				2C687FFF2B0E011A00192A22 /* Cow.h */,
+				2C0D6DB62B0FB8BD0066D05D /* Random.h */,
 			);
 			path = workshop9;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C0D6DB72B0FB8BD0066D05D /* Random.cpp in Sources */,
 				2C687FFD2B0DFDCB00192A22 /* Frisian.cpp in Sources */,
 				2C6880002B0E011A00192A22 /* Cow.cpp in Sources */,
 				2C687FEF2B0DFC7B00192A22 /* main.cpp in Sources */,

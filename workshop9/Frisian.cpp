@@ -11,7 +11,7 @@ using namespace std;
 #include <iostream>
 
 Frisian::Frisian(){
-    cout << "Frisian constructor called..." << endl;
+    //cout << "Frisian constructor called..." << endl;
 }
 
 void Frisian::speak(void) {
@@ -19,5 +19,5 @@ void Frisian::speak(void) {
 }
 
 Frisian::~Frisian(){
-    cout << "Frisian deconstructor called..." << endl;
+    //cout << "Frisian deconstructor called..." << endl;
 }

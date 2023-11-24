@@ -11,7 +11,7 @@ using namespace std;
 #include <iostream>
 
 Sheep::Sheep(){
-    cout << "Sheep constructor called..." << endl;
+    //cout << "Sheep constructor called..." << endl;
 }
 
 void Sheep::speak(void) {
@@ -19,5 +19,5 @@ cout << "Sheep says: \t\tbaa!" << endl;
 }
 
 Sheep::~Sheep(){
-    cout << "Sheep deconstructor called..." << endl;
+    //cout << "Sheep deconstructor called..." << endl;
 }

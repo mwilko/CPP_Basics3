@@ -14,20 +14,34 @@
 #include "Cow.h"
 #include "Sheep.h"
 #include "Frisian.h"
+#include "Random.h"
 using namespace std;
 
 int main(int argc, const char * argv[]) {
     
-    //creating objects of derived classes
-    Cow cow;
-    Sheep sheep;
-    Frisian frisian;
-    
     //container holding references of the instances of all classes
     vector<Animal*> container;//Animal type to allow for polymorhpic behaviour
-    container.push_back(&cow);
-    container.push_back(&sheep);
-    container.push_back(&frisian);
+    Random rnd;//Random object made for the random number
+    int choice = 0;
+    
+    cout << "enter number of objects: ";
+    cin >> choice;
+
+    for (int i = 0; i < choice; ++i) //for loop which iterates based on the object amount given by user
+    {
+        //random number is picked from given range
+        int animal = rnd.RandomNumber(1, 3);
+        if (animal == 1) {
+            container.push_back(new Sheep());
+        } else if (animal == 2) {
+            container.push_back(new Cow());
+        } else if (animal == 3){
+            container.push_back(new Frisian());
+        } else{
+            cout << "Error: Random Number Generator Issue" << endl;
+        }
+        
+    }
     
     //for loop which iterates through the vector one by one
     for (int a = 0; a < container.size(); a++)

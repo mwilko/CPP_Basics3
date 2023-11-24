@@ -11,12 +11,12 @@ using namespace std;
 #include <iostream>
 
 Animal::Animal(){
-    cout << "Animal constructor called..." << endl;
+    //cout << "Animal constructor called..." << endl;
 }
 
 void Animal::speak(void){
 };
 
 Animal::~Animal(){
-    cout << "Animal deconstructor called..." << endl;
+    //cout << "Animal deconstructor called..." << endl;
 }
