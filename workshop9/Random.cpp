@@ -2,7 +2,7 @@
 //  Random.cpp
 //  workshop9
 //
-//  Created by Max Wilkinson on 23/11/2023.
+//  Created by Max Wilkinson on 27/11/2023.
 //
 
 #include "Random.h"
@@ -23,4 +23,3 @@ int Random::RandomNumber(int firstNum, int lastNum){
 Random::~Random(){
     //cout << "Random deconstructor called..." << endl;
 }
-

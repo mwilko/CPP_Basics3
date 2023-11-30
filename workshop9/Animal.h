@@ -17,7 +17,7 @@ public:
 //virutal to allow derived classes to override the function with its own implimentation
 //base class method acts as a placeholder
     virtual void speak(void) = 0;//pure virtual function (no content/body)
-    ~Animal();//deconstructor
+    virtual ~Animal();//deconstructor
 };
 
 #endif /* Animal_h */

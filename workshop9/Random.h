@@ -1,8 +1,8 @@
 //
-//  Random.h
+//  Random.hpp
 //  workshop9
 //
-//  Created by Max Wilkinson on 23/11/2023.
+//  Created by Max Wilkinson on 27/11/2023.
 //
 
 #ifndef Random_h
